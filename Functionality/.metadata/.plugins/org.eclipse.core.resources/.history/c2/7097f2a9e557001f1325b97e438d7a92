@@ -1,0 +1,27 @@
+package com.travelnest.repositories;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import com.travelnest.entities.Login;
+import com.travelnest.entities.User;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Integer>{
+	
+	/*@Query("select u from User u where email = :email")
+	public User getUser(String email ); */
+	
+	 List<User> findByAuthorized(int authorized);
+	 List<User> findByRoleID(int role_id);
+	 
+	 @Query("SELECT u FROM User u LEFT JOIN FETCH u.area WHERE u.user_id = :userId")
+	 User findUserByIdWithArea(@Param("userId") int userId);
+
+	
+}

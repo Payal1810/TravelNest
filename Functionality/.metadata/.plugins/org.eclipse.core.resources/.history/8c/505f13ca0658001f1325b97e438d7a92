@@ -1,0 +1,14 @@
+package com.travelnest.repositories;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.travelnest.entities.Hotels;
+import com.travelnest.entities.User;
+
+public interface HotelRepository extends JpaRepository<Hotels, Integer> {
+
+	List<Hotels> findByStatus(int status);
+
+}

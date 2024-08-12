@@ -1,0 +1,19 @@
+package com.travelnest.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.travelnest.entities.Hotels;
+import com.travelnest.repositories.HotelRepository;
+
+@Service
+public class HotelService {
+	
+	@Autowired
+	HotelRepository hr;
+	
+	public Hotels addHotel(Hotels h) {
+		return hr.save(h);
+	}
+
+}
