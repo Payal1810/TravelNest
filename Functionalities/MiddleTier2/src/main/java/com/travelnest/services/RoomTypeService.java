@@ -1,5 +1,7 @@
 package com.travelnest.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,4 +17,16 @@ public class RoomTypeService {
 		return roomrep.findById(typeid).get();
 	}
 	
+	public List<RoomType> getRoomTypes() {
+        return roomrep.findAll();
+    }
+	
+	
 }
+
+
+
+
+
+
+

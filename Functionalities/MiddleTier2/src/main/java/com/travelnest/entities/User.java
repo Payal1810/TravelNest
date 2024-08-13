@@ -15,7 +15,16 @@ public class User {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int user_id;
 	String fname, lname, email, mobile, aadhar, password,address,answer;
+	int authorized;
 	
+	public int getAuthorized() {
+		return authorized;
+	}
+
+	public void setAuthorized(int authorized) {
+		this.authorized = authorized;
+	}
+
 	@ManyToOne
 	@JoinColumn(name="area")
 	Area area;
