@@ -37,6 +37,12 @@ public class UserController {
 	    public List<User> getAllCustomers() {
 	        return userv.getCustomerByRole(3);
 	    }
+	  
+	  @GetMapping("/owners")
+	    public List<User> getAllOwners() {
+	        return userv.getCustomerByRole(2);
+	    } 
+	    
 	 
 	 @PutMapping("/approve/{id}")
 	    public void approveUser(@PathVariable int id) {

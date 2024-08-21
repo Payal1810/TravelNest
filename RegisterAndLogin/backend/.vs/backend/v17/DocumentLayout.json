@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|e:\\payal\\know-it\\project\\code\\registerandlogin\\backend\\backend\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|e:\\payal\\know-it\\project\\code\\registerandlogin\\backend\\backend\\models\\travelnestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|solutionrelative:backend\\models\\travelnestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|e:\\payal\\know-it\\project\\code\\registerandlogin\\backend\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|solutionrelative:backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|e:\\payal\\know-it\\project\\code\\registerandlogin\\backend\\backend\\backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|solutionrelative:backend\\backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|e:\\payal\\know-it\\project\\code\\registerandlogin\\backend\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|solutionrelative:backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|e:\\payal\\know-it\\project\\code\\registerandlogin\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|e:\\payal\\know-it\\project\\code\\registerandlogin\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|e:\\payal\\know-it\\project\\code\\registerandlogin\\backend\\backend\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|solutionrelative:backend\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|e:\\payal\\know-it\\project\\code\\registerandlogin\\backend\\backend\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|solutionrelative:backend\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|e:\\payal\\know-it\\project\\code\\registerandlogin\\backend\\backend\\models\\securityquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|solutionrelative:backend\\models\\securityquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|e:\\payal\\know-it\\project\\code\\registerandlogin\\backend\\backend\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A984B4A-EE2C-443A-A937-0BF976B80FD7}|Backend\\Backend.csproj|solutionrelative:backend\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend\\appsettings.json",
+              "ToolTip": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\appsettings.json",
+              "RelativeToolTip": "Backend\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-06T07:19:38.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManagementController.cs",
+              "DocumentMoniker": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Controllers\\UserManagementController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\UserManagementController.cs",
+              "ToolTip": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Controllers\\UserManagementController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\UserManagementController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T03:53:33.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Backend\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Backend\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-06T03:14:47.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Backend.http",
+              "DocumentMoniker": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Backend.http",
+              "RelativeDocumentMoniker": "Backend\\Backend.http",
+              "ToolTip": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Backend.http",
+              "RelativeToolTip": "Backend\\Backend.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-06T03:14:36.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T03:14:21.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\User.cs",
+              "ToolTip": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Models\\User.cs",
+              "RelativeToolTip": "Backend\\Models\\User.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvxgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:16:30.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "travelnestContext.cs",
+              "DocumentMoniker": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Models\\travelnestContext.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\travelnestContext.cs",
+              "ToolTip": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Models\\travelnestContext.cs",
+              "RelativeToolTip": "Backend\\Models\\travelnestContext.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAwwLYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:16:26.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SecurityQuestion.cs",
+              "DocumentMoniker": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Models\\SecurityQuestion.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\SecurityQuestion.cs",
+              "ToolTip": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Models\\SecurityQuestion.cs",
+              "RelativeToolTip": "Backend\\Models\\SecurityQuestion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:16:21.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Role.cs",
+              "DocumentMoniker": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Role.cs",
+              "ToolTip": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Models\\Role.cs",
+              "RelativeToolTip": "Backend\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:16:15.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\LoginModel.cs",
+              "ToolTip": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Backend\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:16:13.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "City.cs",
+              "DocumentMoniker": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Models\\City.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\City.cs",
+              "ToolTip": "E:\\Payal\\know-it\\Project\\Code\\RegisterAndLogin\\backend\\Backend\\Models\\City.cs",
+              "RelativeToolTip": "Backend\\Models\\City.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:16:08.003Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

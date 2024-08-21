@@ -4,12 +4,15 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.travelnest.entities.Area;
 import com.travelnest.entities.HotelDummy;
@@ -61,14 +64,6 @@ public class HotelController {
 	    public List<Hotel> getAllHotels() {
 	        return hs.getAllHotels();
 	    }
-	
-	 
-		/*
-		 * @GetMapping("/getHotelByOwnerId") public List<Hotel>
-		 * getHotel(@RequestParam("owner_id") int owner_id ){ return
-		 * hs.getHotelByOwnerId(owner_id); }
-		 */
-	
 	 
 	 @GetMapping("/hotels")
 	    public List<Hotel> getAllUser() {
@@ -80,11 +75,54 @@ public class HotelController {
 	        return hs.updateStatus(1);
 	    }
 	 
-		/*
-		 * @GetMapping("/searchHotels") public List<Hotel> searchHotels(
-		 * 
-		 * @RequestParam int cityId,
-		 * 
-		 * @RequestParam int areaId) { return hs.searchHotels(cityId, areaId); }
-		 */
+		@GetMapping("/gethotels")
+	    public List<Hotel> getAllHotelsByStatus() {
+	        return hs.getHotelsByStatus(1);
+	    }
+		
+		@GetMapping("/getAllHotelsByArea")
+		public List<Hotel> getAllHotelsByArea(@RequestParam("area") int area) {
+			return hs.getHotelsByArea(area);
+			
+		}
+		
+		
+		@GetMapping("/getHotelsByOwnerId")
+		public List<Hotel> getHotelsByOwnerId(@RequestParam int owner_id) {
+			return hs.getHotelsByOwnerId(owner_id);
+		}
+		
+		@PostMapping(value="/uploadHotelImage/{hid}", consumes="multipart/form-data")
+		public boolean uploadHotelImage(@PathVariable("hid")int hid,@RequestBody MultipartFile file) {
+			boolean flag=true;
+			try {
+				hs.uploadImage(hid, file.getBytes());
+			}
+			catch(Exception e) {
+				System.out.println(e.getMessage());
+				flag=false;
+			}
+			return flag;
+		}
+		
+		
+		
+		 @PutMapping("/updateHotelStatus/{hotelId}")
+		    public Hotel updateHotelStatus(@PathVariable int hotelId) {
+		        System.out.println("Update Hotel Status for ID: " + hotelId);
+		        
+		        Hotel hotel = hs.getHotelById(hotelId);
+		        if (hotel != null) {
+		            // Directly update the status to 1
+		            hotel.setStatus(1);
+		            hs.saveHotel(hotel); // Save the updated hotel
+		        }
+
+		        return hotel;
+		    }
+		@DeleteMapping("/deleteHotel/{hotelId}")
+		    public void deleteHotel(@PathVariable int hotelId) {
+		        hs.deleteHotelById(hotelId);
+		    }
+	
 }
